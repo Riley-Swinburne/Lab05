@@ -1,0 +1,97 @@
+/*
+
+filename: lab04.css
+
+author: Riley Tuckett
+
+created: 25/03/2025 10:30 am
+
+last modified: [enter date]
+
+description: Style sheet for lab04.html
+
+*/
+
+* {
+    color: #2F4F4F
+}
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside, footer { font-style: italic; }    
+
+table, th, td{
+    border: 1px solid black;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+    color:black
+}
+
+nav a:hover{
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid darkblue;
+    color:lightblue
+}
+
+h2{
+    color:rgb(0,128,128)
+}
+
+/* dl{
+    display: none;
+} */
+
+p a {
+    color: black;
+}
+
+footer{
+    text-align: right;
+    font-style: normal;
+}
+
+ol li ul{
+    list-style-type:square;
+}
+
+aside:hover{
+    display: none;
+}
+
+#BasicElements {
+    display: none;
+}
+
+#DL, #OL, #UL{
+    display: none;
+}
+
+#images {
+    text-align : center;
+    }
+
+#RedHeading{
+    color:red;
+}
+
+
+.special{
+    color:darkorange;
+}
+
+.RightAlign{
+    text-align: right;
+}
